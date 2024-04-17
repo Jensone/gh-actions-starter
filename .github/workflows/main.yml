@@ -4,7 +4,7 @@ name: gh-action-starter
 # Conditions et lancement du workflow
 run-name: Le workflow de ${{ github.actor }} est lancé
 on:
-  [push]
+  [fork]
 jobs:
   create-docker-image:
     runs-on: ubuntu-latest
